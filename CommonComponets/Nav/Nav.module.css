@@ -23,3 +23,10 @@
     font-size: 0.8rem;
   }
 }
+
+@media (max-width: 550px) {
+  .element li {
+    font-size: 0.7rem;
+    padding: 0.25rem;
+  }
+}
