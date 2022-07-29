@@ -13,7 +13,8 @@
   color: #3b48db;
 }
 
-.link {
+.link,
+.linkLast {
   float: right;
   color: black;
 }
@@ -28,5 +29,8 @@
   .element li {
     font-size: 0.7rem;
     padding: 0.25rem;
+  }
+  .linkLast {
+    margin-right: 10px;
   }
 }

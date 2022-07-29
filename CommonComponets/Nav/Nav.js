@@ -17,7 +17,7 @@ export default function Nav() {
           <li className={styles.currentPage}>
             <a>{page}</a>
           </li>
-          <li className={styles.link}>
+          <li className={styles.linkLast}>
             <Link href="/projects">
               <a>.projects()</a>
             </Link>
