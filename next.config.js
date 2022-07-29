@@ -3,6 +3,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  basePath: '/PersonalWeb',
+  assetPrefix: '/PersonalWeb',
   images: {
     loader: 'akamai',
     path: '/',
