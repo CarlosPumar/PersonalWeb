@@ -1,0 +1,9 @@
+.main {
+  min-height: 95vh;
+  padding: 4rem 2rem;
+  flex: 1;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

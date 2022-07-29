@@ -1,0 +1,23 @@
+.button {
+  width: 10rem;
+  height: 2rem;
+  background-color: #3b48db;
+  color: white;
+  border-radius: 1px 5px;
+  border-style: none;
+  font-size: 0.8rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #0680cb;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5em;
+}

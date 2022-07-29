@@ -1,0 +1,19 @@
+.externalDiv {
+  margin: auto 20%;
+  border-radius: 1rem;
+}
+
+.floatContainer {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0px;
+}
+
+@media (max-width: 1500px) {
+  .externalDiv {
+    margin: auto 15%;
+  }
+}

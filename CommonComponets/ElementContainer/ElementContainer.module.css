@@ -1,0 +1,14 @@
+.floatChild {
+  width: 50%;
+  float: left;
+  padding: 1.5rem;
+  padding-top: 6rem;
+}
+
+@media (max-width: 1000px) {
+  .floatChild {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+}

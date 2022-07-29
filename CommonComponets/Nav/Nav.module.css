@@ -1,0 +1,25 @@
+.element li {
+  list-style: none;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.currentPage {
+  float: left;
+  color: #3b48db;
+}
+
+.link {
+  float: right;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .element li {
+    font-size: 0.8rem;
+  }
+}

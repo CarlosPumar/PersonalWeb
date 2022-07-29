@@ -1,0 +1,27 @@
+.h1 {
+  margin-top: 3rem;
+}
+
+.link {
+  color: #3b48db;
+  padding: 2rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #0680cb;
+}
+
+.p {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .h1 {
+    margin-top: 0rem;
+  }
+  .link {
+    color: #3b48db;
+    padding: 0 1.5rem;
+  }
+}
