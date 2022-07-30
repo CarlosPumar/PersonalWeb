@@ -1,4 +1,5 @@
 import styles from './ProjectBody.module.css';
+import Word from '../Word/Word';
 
 export default function AB3() {
   return (
@@ -6,13 +7,15 @@ export default function AB3() {
       <h3>AutoBetting365</h3>
       <p>AB3 is an app that bet depending on the Twitter data.</p>
       <p>
-        The backend is an API Rest created by Django. The API is protected by
-        JWT authorization. The players state is updated automatically by
-        Twitter. A websocket is used for the Twitter connection.
+        The backend is an API Rest created by <Word>Django</Word>. The API is
+        protected by
+        <Word> JWT Authoritation</Word>. The players state is updated
+        automatically by Twitter. A <Word>websocket</Word> is used for the
+        Twitter connection.
       </p>
       <p>
-        Frontend to manage the app developed by React. Google Chrome extension
-        creation that consumes the API via websocket
+        Frontend to manage the app developed by <Word>React</Word>. Google
+        Chrome extension creation that consumes the API via websocket
       </p>
       <a
         className={styles.link}

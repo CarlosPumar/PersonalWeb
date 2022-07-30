@@ -1,4 +1,5 @@
 import styles from './ExperienceBody.module.css';
+import Word from '../Word/Word';
 
 export default function DTN() {
   return (
@@ -7,12 +8,19 @@ export default function DTN() {
       <h3>Software Engineer</h3>
       <h5>09/2021 - 12/2021</h5>
       <ul className={styles.list}>
-        <li>Developing and fixing React Components</li>
         <li>
-          Refactoring the obtaning of data via API Rest and Redux and Saga
+          Developing and fixing <Word>React</Word> Components
         </li>
-        <li>Configuring Docker and Docker-compose files</li>
-        <li>Configuring MongoDB and MySQL databases</li>
+        <li>
+          Refactoring the obtaning of data via <Word>API Rest</Word> and{' '}
+          <Word>Redux</Word> and <Word>Saga</Word>
+        </li>
+        <li>
+          Configuring <Word>Docker</Word> and <Word>Docker-compose</Word> files
+        </li>
+        <li>
+          Configuring <Word>MongoDB</Word> and <Word>MySQL</Word> databases
+        </li>
       </ul>
     </>
   );

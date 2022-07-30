@@ -7,14 +7,7 @@ import ProjectBody from '../Components/ProjectsBody/ProjectBody';
 export default function Projects() {
   return (
     <Page>
-      <Container>
-        <ElementContainer>
-          <ProjectBody />
-        </ElementContainer>
-        <ElementContainer>
-          <Image src="/img/code1.png" alt="code" width={400} height={400} />
-        </ElementContainer>
-      </Container>
+      <ProjectBody />
     </Page>
   );
 }

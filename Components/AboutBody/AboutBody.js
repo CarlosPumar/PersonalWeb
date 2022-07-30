@@ -6,7 +6,7 @@ export default function AboutBody() {
   return (
     <>
       <h1 className={styles.h1}>
-        <Word word="CARLOS" /> PUMAR JIMÉNEZ
+        <Word>CARLOS</Word> PUMAR JIMÉNEZ
       </h1>
       <h3>Software Engineer - Frontend</h3>
       <p>
