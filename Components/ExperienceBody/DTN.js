@@ -6,7 +6,7 @@ export default function DTN() {
     <>
       <h2>DTNº</h2>
       <h3>Software Engineer</h3>
-      <h5>09/2021 - 12/2021</h5>
+      <h5>01/2022 - 7/2022</h5>
       <ul className={styles.list}>
         <li>
           Developing and fixing <Word>React</Word> Components

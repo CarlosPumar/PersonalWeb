@@ -7,14 +7,22 @@
   color: #0680cb;
 }
 
-.list ul {
+.list {
   line-height: 1.5em;
   margin: 5px 0 15px;
-  padding: 0;
+  padding-left: 2rem;
 }
 
 .list li {
   list-style: '*';
   position: relative;
   padding: 0 0 0 20px;
+}
+
+@media (max-width: 550px) {
+  .list {
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
 }

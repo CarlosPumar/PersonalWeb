@@ -6,8 +6,8 @@ export default function PersonalWebPage() {
     <>
       <h3>Personal Web Page</h3>
       <p>
-        Personal web page where you are right now! It is a static web made by
-        <Word> NextJS</Word> to be super fast when serving the data. It doesn
+        Personal web page where you are right now! It is a static web made by{' '}
+        <Word>NextJS</Word> to be super fast when serving the data. It doesn
         {`'`}t use any style framework, it is design from 0 with{' '}
         <Word>CSS</Word> style modules.
       </p>
