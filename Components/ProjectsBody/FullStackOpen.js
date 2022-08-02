@@ -6,7 +6,7 @@ export default function FullStackOpen() {
     <>
       <h3>Full Stack Open</h3>
       <p>
-        A Course focused in modern web development with <Word>Javascript</Word>.
+        A course focused in modern web development with <Word>Javascript</Word>.
         The main focus is on building single page applications with{' '}
         <Word>ReactJS</Word> that use REST APIs built with <Word>Node.js</Word>.
       </p>

@@ -11,7 +11,7 @@ export default function AboutBody() {
       <h3>Software Engineer - Frontend</h3>
       <p>
         I{`'`}m a Software Engineer graduated in Pablo de Olavide University,
-        with a passion for everything related to the frontend and emerging
+        with a passion for everything related to Frontend and emerging
         technologies.
       </p>
       <p>
