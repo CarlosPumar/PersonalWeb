@@ -1,7 +1,7 @@
 export default function YouCouldBeNext() {
   return (
     <>
-      <p>Could be your company !</p>
+      <p>Next could be your company !</p>
     </>
   );
 }

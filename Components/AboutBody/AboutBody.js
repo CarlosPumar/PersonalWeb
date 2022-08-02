@@ -15,12 +15,10 @@ export default function AboutBody() {
         technologies.
       </p>
       <p>
-        I really enjoy meeting new people, to talk about technology, both to
+        I really enjoy meeting new people to talk about technology, both to
         learn and share knowledge.
       </p>
-      <p className={styles.p}>
-        Please, don{`'`}t hesitate to reach me out on any of my media!
-      </p>
+      <p className={styles.p}>Don{`'`}t hesitate to reach me out!</p>
       <a
         className={styles.link}
         href="/cv.pdf"
