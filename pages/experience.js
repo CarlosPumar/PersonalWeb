@@ -12,7 +12,7 @@ export default function Projects() {
           <ExperienceBody />
         </ElementContainer>
         <ElementContainer>
-          <Image src="/img/code1.png" alt="code" width={400} height={400} />
+          <Image src="/img/code2.png" alt="code" width={400} height={400} />
         </ElementContainer>
       </Container>
     </Page>
